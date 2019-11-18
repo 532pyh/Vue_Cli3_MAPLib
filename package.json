@@ -1,0 +1,25 @@
+{
+    "name": "map-lib-test",
+    "version": "0.1.0",
+    "private": false,
+    "main": "lib/index/index.js",
+    "keyword": "mapLibTest",
+    "description": "用Vue Cli3实现组件库每个组件分开打包，使用babel-plugin-import实现组件按需引入",
+    "author": "pengyh",
+    "scripts": {
+        "dev": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "core-js": "^2.6.5",
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.9.0",
+        "@vue/cli-service": "^3.9.0",
+        "less": "^3.0.4",
+        "less-loader": "^4.1.0",
+        "vue-template-compiler": "^2.6.10"
+    }
+}
