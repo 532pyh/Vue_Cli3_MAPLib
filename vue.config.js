@@ -70,9 +70,7 @@ const buildConfig = {
         },
         output: {
             filename: '[name]/index.js',
-            library: 'maplibtest',
             libraryTarget: 'commonjs2',
-            libraryExport: 'default',
         }
     },
     chainWebpack: config => {

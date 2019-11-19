@@ -1,6 +1,6 @@
 {
     "name": "map-lib-test",
-    "version": "0.1.0",
+    "version": "0.6.0",
     "private": false,
     "main": "lib/index/index.js",
     "keyword": "mapLibTest",
